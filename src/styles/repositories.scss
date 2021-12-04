@@ -1,15 +1,15 @@
 section.repositories {
     margin: 40px;
 
-    &__title {
+    .repositories__title {
         margin-bottom: 16px;
     }
 
-    &__list {
+    .repositories__list {
         list-style: none;
 
-        &-item {
-            & + &-item {
+        .repositories__list-item {
+            & + .repositories__list-item {
                 margin-top: 20px;
             }
 
